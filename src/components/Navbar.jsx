@@ -23,7 +23,7 @@ export default function Navbar() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="#475569"
-              className="w-6 h-6"
+              className="w-6 h-6 animate-spin"
             >
               <path
                 fillRule="evenodd"
