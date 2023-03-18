@@ -3,10 +3,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Youtube", href: "https://www.youtube.com/@tolgzorlu/videos" },
-  { name: "Blog", href: "http://kiraathane.dev/" },
-  { name: "Github", href: "https://github.com/tolgazorlu?tab=repositories" },
-  { name: "Linkedin", href: "https://www.linkedin.com/in/tolgazorlu/" },
+  { name: "Youtube", href: "https://www.youtube.com/@tolgzorlu/videos"},
+  { name: "Blog", href: "https://medium.com/@tolgazorlu17"},
+  { name: "Github", href: "https://github.com/tolgazorlu?tab=repositories"},
+  { name: "Linkedin", href: "https://www.linkedin.com/in/tolgazorlu/"},
 ];
 
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="#21c55d"
+              fill="#475569"
               className="w-6 h-6"
             >
               <path
@@ -34,7 +34,7 @@ export default function Navbar() {
             </div>
           </a>
           <div>
-            <a className="ml-2 text-md font-semibold leading-6 text-gray-500">Tolga Zorlu</a>
+            <a className="ml-2 text-md font-semibold leading-6 text-slate-600">Tolga Zorlu</a>
           </div>
         </div>
         <div className="flex lg:hidden">
@@ -52,16 +52,11 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className="text-md font-semibold leading-6 text-gray-500"
+              className='text-md font-semibold leading-6 text-slate-600 hover:text-[#0b65c2]'
             >
               {item.name}
             </a>
           ))}
-        </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="https://export-download.canva.com/5rwGs/DAEYKx5rwGs/1079/0-46456010335.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230205%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230205T092106Z&X-Amz-Expires=19974&X-Amz-Signature=a21ec92e505a1ea1889dff3a5386d22ab2ccc6a4d2759736774c8826fcad41f8&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Tolga%2520Zorlu.pdf&response-expires=Sun%2C%2005%20Feb%202023%2014%3A54%3A00%20GMT" className="text-md font-semibold leading-6 text-gray-500">
-            Download CV
-          </a>
         </div>
       </nav>
       <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
