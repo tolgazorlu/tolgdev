@@ -13,8 +13,8 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="px-6 pt-6 lg:px-8 w-full fixed">
-      <nav className="flex items-center justify-between z-10 p-4 rounded-md" aria-label="Global">
+    <div className="px-6 pt-6 lg:px-8 w-full fixed z-10">
+      <nav className="flex items-center justify-between p-4 rounded-md" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">tolgdev</span>
@@ -22,7 +22,7 @@ export default function Navbar() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="#475569"
+              fill="#fcd34d"
               className="w-6 h-6 animate-spin"
             >
               <path
@@ -34,13 +34,13 @@ export default function Navbar() {
             </div>
           </a>
           <div>
-            <a className="ml-2 text-md font-semibold leading-6 text-slate-600">Tolga Zorlu</a>
+            <a className="ml-2 text-md font-semibold leading-6 text-slate-700">Tolga Zorlu</a>
           </div>
         </div>
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -52,7 +52,7 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className='text-md font-semibold leading-6 text-slate-600 hover:text-[#0b65c2]'
+              className='text-md font-semibold leading-6 text-slate-600 hover:text-amber-300'
             >
               {item.name}
             </a>

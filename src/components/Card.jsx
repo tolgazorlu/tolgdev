@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Card({ title, desc, href, url }) {
   return (
-    <div className="max-w-xs bg-slate-600 border border-gray-200 rounded-lg shadow">
+    <div className="max-w-xs bg-slate-700 border border-gray-200 rounded-lg shadow">
       <a href="#">
-        <img className="rounded-t-lg w-full h-48" src={url} alt="" />
+        <img className="rounded-t-lg w-full h-52" src={url} alt="" />
       </a>
       <div className="p-5 flex flex-col justify-around items-start">
         <div>
@@ -14,10 +14,11 @@ export default function Card({ title, desc, href, url }) {
           </h5>
         </a>
         <p className="mb-3 font-normal text-slate-300">{desc}</p>
+        <br></br>
         </div>
         <a
           href={href}
-          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-600 bg-slate-100 rounded-lg hover:bg-slate-400 hover:text-slate-100"
+          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-700 bg-amber-300 rounded-lg hover:bg-slate-400 hover:text-slate-100"
         >
           Click more
           <svg

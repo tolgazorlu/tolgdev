@@ -4,7 +4,7 @@ import Card from "./Card";
 const works = [
   {
     title: "Deprem Dayanisma",
-    desc: " Due to the 7.7 and 7.6 magnitude earthquakes that took place in Turkey, science and technology-oriented channels provide support to earthquake victims.",
+    desc: " Due to the 7.7 and 7.6 magnitude earthquakes that took place ...",
     href: "https://depremdayanisma.vercel.app/",
     imgUrl:
       "https://raw.githubusercontent.com/tolgazorlu/depremdayanisma/main/Screenshot%202023-03-18%20at%2015.46.12.png",
@@ -29,7 +29,7 @@ export default function Portfolio() {
   return (
     <div className="h-screen w-full flex flex-col justify-center items-center snap-center gap-10">
       <div>
-        <span className="text-2xl font-bold text-slate-600">My Works</span>
+        <span className="text-2xl font-bold text-slate-700">My Works</span>
       </div>
 
       <div className="flex flex-row gap-5">
