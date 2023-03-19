@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Example() {
   return (
     <main className="snap-center">
@@ -23,14 +25,24 @@ export default function Example() {
               I am interested about web and mobile technologies. I currently
               developing small projects with Nodejs, Express, MongoDB and React.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="https://drive.google.com/file/d/1IKD5QtKgBeURHlvYk-jIUGYGpEQZrsTD/view?usp=sharing"
-                className="rounded-md bg-amber-300 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-700 shadow-sm hover:bg-slate-700 hover:text-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Download CV
-              </a>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                  href="https://drive.google.com/file/d/1IKD5QtKgBeURHlvYk-jIUGYGpEQZrsTD/view?usp=sharing"
+                  className="rounded-md bg-amber-300 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-700 shadow-sm hover:bg-slate-700 hover:text-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Download CV
+                </a>
+              </div>
+            </motion.div>
             <div className="flex justify-center items-center h-48">
               <div className="animate-bounce text-slate-700">
                 <svg
