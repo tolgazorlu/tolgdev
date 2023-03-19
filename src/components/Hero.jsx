@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Example() {
   return (
-    <main className="snap-center">
+    <main className="snap-center" id="home">
       <div className="relative px-6 lg:px-8 z-0">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
@@ -18,7 +18,7 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-slate-700 bg-amber-300 rounded-xl p-2 sm:text-6xl">
+            <h1 className="text-4xl font-bold text-slate-700 bg-gradient-to-r to-amber-300 from-yellow-400 rounded-xl p-2 sm:text-6xl">
               Tolga Zorlu
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
