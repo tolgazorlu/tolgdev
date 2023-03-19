@@ -14,8 +14,8 @@ export default function Footer() {
               <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="#fcd34d"
-              className="w-10 h-10"
+              fill="#3a81f6"
+              className="w-10 h-10 animate-spin"
             >
               <path
                 fillRule="evenodd"
@@ -44,7 +44,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#contact" className="hover:underline">
                   Contact
                 </a>
               </li>

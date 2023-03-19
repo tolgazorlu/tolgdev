@@ -23,7 +23,7 @@ export default function Card({ title, desc, href, url }) {
         >
         <a
           href={href}
-          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-700 bg-amber-300 rounded-lg hover:bg-amber-400 hover:text-amber-100"
+          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-100 bg-blue-500 rounded-lg hover:bg-blue-600"
         >
           Click more
           <svg
