@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experiences() {
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center snap-center gap-10">
+    <div id="experiences" className="bg-slate-200 h-screen w-full flex flex-col justify-center items-center snap-center gap-10 p-10">
       <div>
         <span className="text-2xl font-bold text-slate-700">
           My Experiences
