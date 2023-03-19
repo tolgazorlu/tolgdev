@@ -2,12 +2,8 @@ import React from "react";
 
 export default function Experiences() {
   return (
-    <div id="experiences" className="bg-slate-200 h-screen w-full flex flex-col justify-center items-center snap-center gap-10 p-10 mt-[200px] sm:mt-[100px] md:mt-20">
-      <div>
-        <span className="text-2xl font-bold text-slate-700">
-          My Experiences
-        </span>
-      </div>
+    <div id="experiences" className="bg-slate-200 h-screen w-full flex flex-col justify-center items-center snap-center gap-10 p-10 mt-[200px] sm:mt-[100px] md:mt-20 lg:mt-0">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700">My Experiences</h2>
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         <li className="mb-10 ml-4">
           <div className="absolute w-3 h-3 bg-blue-500 rounded-full mt-1.5 -left-1.5 border border-blue-500"></div>
