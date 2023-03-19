@@ -4,7 +4,7 @@ import Card from "./Card";
 const works = [
   {
     title: "Deprem Dayanisma",
-    desc: " Due to the 7.7 and 7.6 magnitude earthquakes that took place ...",
+    desc: " Due to the 7.7 and 7.6 magnitude earthquakes ...",
     href: "https://depremdayanisma.vercel.app/",
     imgUrl:
       "https://raw.githubusercontent.com/tolgazorlu/depremdayanisma/main/Screenshot%202023-03-18%20at%2015.46.12.png",
