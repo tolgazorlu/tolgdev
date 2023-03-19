@@ -26,21 +26,22 @@ export default function Example() {
               developing small projects with Nodejs, Express, MongoDB and React.
             </p>
             <motion.div
+              whileHover={{ scale: 1.1 }}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
                 duration: 0.8,
-                delay: 0.5,
                 ease: [0, 0.71, 0.2, 1.01],
+                type: "spring", stiffness: 400, damping: 10
               }}
             >
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="https://drive.google.com/file/d/1anNRGXRCtoeil0CPl3_4RaSNNvUd-IUn/view?usp=sharing"
-                  className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-100 shadow-sm hover:bg-slate-700 hover:text-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Download CV
-                </a>
+                  <a
+                    href="https://drive.google.com/file/d/1anNRGXRCtoeil0CPl3_4RaSNNvUd-IUn/view?usp=sharing"
+                    className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-100 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Download CV
+                  </a>
               </div>
             </motion.div>
             <div className="flex justify-center items-center h-48">
