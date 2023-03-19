@@ -12,8 +12,8 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="px-6 pt-6 lg:px-8 w-full fixed z-10">
-      <nav className="flex items-center justify-between p-4 rounded-md" aria-label="Global">
+    <div className="px-6 pt-6 lg:px-8 w-full fixed z-10 bg-slate-200">
+      <nav className="flex items-center justify-between p-4 rounded-md bg-slate-200" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">tolgdev</span>
