@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from 'react-icons/ai'
 export default function Footer() {
   return (
     <div className="bg-slate-200">
-      <footer className="rounded-lg shadow  m-4">
+      <footer className="rounded-lg m-4">
         <div className="w-full container mx-auto p-4 md:px-6 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
@@ -50,7 +50,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <hr className="my-6 border-slate-700 sm:mx-auto lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Tolga Zorlu™</a>. All Rights Reserved.
           </span>
