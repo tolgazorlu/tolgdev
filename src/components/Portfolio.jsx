@@ -33,13 +33,14 @@ export default function Portfolio() {
       </div>
 
       <div className="flex flex-row gap-5">
-        {works.map((item) => {
+        {works.map((item, index) => {
           return (
             <Card
               title={item.title}
               desc={item.desc}
               href={item.href}
               url={item.imgUrl}
+              key={index}
             />
           );
         })}
