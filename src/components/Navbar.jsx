@@ -3,10 +3,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Youtube", href: "https://www.youtube.com/@tolgzorlu/videos"},
-  { name: "Blog", href: "https://medium.com/@tolgazorlu17"},
-  { name: "Github", href: "https://github.com/tolgazorlu?tab=repositories"},
-  { name: "Linkedin", href: "https://www.linkedin.com/in/tolgazorlu/"},
+  { name: "Home", href: "#home"},
+  { name: "Works", href: "#works"},
+  { name: "Experiences", href: "#experiences"},
 ];
 
 export default function Navbar() {
