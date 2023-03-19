@@ -28,9 +28,7 @@ const works = [
 export default function Portfolio() {
   return (
     <div id="works" className="bg-slate-200 lg:h-screen w-full flex flex-col justify-center items-center snap-center gap-10">
-      <div>
-        <span className="text-2xl font-bold text-slate-700">My Works</span>
-      </div>
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700">My Works</h2>
 
       <div className="flex flex-col lg:flex-row gap-5">
         {works.map((item, index) => {
