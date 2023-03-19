@@ -1,4 +1,5 @@
 import React from "react";
+import {motion} from 'framer-motion'
 
 export default function Card({ title, desc, href, url }) {
   return (
@@ -16,9 +17,13 @@ export default function Card({ title, desc, href, url }) {
         <p className="mb-3 font-normal text-slate-300">{desc}</p>
         <br></br>
         </div>
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
+        >
         <a
           href={href}
-          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-700 bg-amber-300 rounded-lg hover:bg-slate-400 hover:text-slate-100"
+          className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-700 bg-amber-300 rounded-lg hover:bg-amber-400 hover:text-amber-100"
         >
           Click more
           <svg
@@ -35,6 +40,7 @@ export default function Card({ title, desc, href, url }) {
             ></path>
           </svg>
         </a>
+        </motion.div>
       </div>
     </div>
   );
