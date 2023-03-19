@@ -18,7 +18,7 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-slate-700 bg-gradient-to-r to-amber-400 from-yellow-400 rounded-xl p-2 sm:text-6xl">
+            <h1 className="text-4xl font-bold text-slate-100 bg-blue-500 rounded-xl p-2 sm:text-6xl">
               Tolga Zorlu
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -37,7 +37,7 @@ export default function Example() {
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="https://drive.google.com/file/d/1IKD5QtKgBeURHlvYk-jIUGYGpEQZrsTD/view?usp=sharing"
-                  className="rounded-md bg-amber-300 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-700 shadow-sm hover:bg-slate-700 hover:text-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-100 shadow-sm hover:bg-slate-700 hover:text-amber-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Download CV
                 </a>
