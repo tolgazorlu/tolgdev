@@ -21,7 +21,7 @@ export default function Navbar() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
-              fill="#fcd34d"
+              fill="#facc17"
               className="w-6 h-6 animate-spin"
             >
               <path
@@ -51,7 +51,7 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className='text-md font-semibold leading-6 text-slate-600 hover:text-amber-300'
+              className='text-md font-semibold leading-6 text-slate-600 hover:text-amber-500'
             >
               {item.name}
             </a>
