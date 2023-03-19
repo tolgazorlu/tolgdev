@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="w-full container mx-auto p-4 md:px-6 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a
-              href="https://flowbite.com/"
+              href="#"
               className="flex items-center mb-4 sm:mb-0"
             >
               <svg
