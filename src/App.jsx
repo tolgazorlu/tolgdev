@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Experiences from "./components/Experiences";
 import {motion, useScroll} from 'framer-motion'
+import Footer from "./components/Footer";
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <Portfolio />
       <Experiences />
+      <Footer />
     </div>
   );
 }

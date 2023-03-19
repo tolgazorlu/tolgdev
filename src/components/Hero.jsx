@@ -18,7 +18,7 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-slate-700 bg-gradient-to-r to-amber-300 from-yellow-400 rounded-xl p-2 sm:text-6xl">
+            <h1 className="text-4xl font-bold text-slate-700 bg-gradient-to-r to-amber-400 from-yellow-400 rounded-xl p-2 sm:text-6xl">
               Tolga Zorlu
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
