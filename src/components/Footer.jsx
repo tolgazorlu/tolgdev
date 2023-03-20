@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 
 export default function Footer() {
   return (
@@ -7,22 +7,11 @@ export default function Footer() {
       <footer className="rounded-lg m-4">
         <div className="w-full container mx-auto p-4 md:px-6 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
-            <a
-              href="#"
-              className="flex items-center mb-4 sm:mb-0"
-            >
-              <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#3a81f6"
-              className="w-10 h-10 animate-spin"
-            >
-              <path
-                fillRule="evenodd"
-                d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z"
-                clipRule="evenodd"
+            <a href="#" className="flex items-center mb-4 sm:mb-0">
+              <img
+                className="w-6 h-6 rounded-lg mr-2"
+                src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj"
               />
-            </svg>
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-700">
                 Tolga Zorlu
               </span>
@@ -39,7 +28,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#experiences" className="mr-4 hover:underline md:mr-6 ">
+                <a
+                  href="#experiences"
+                  className="mr-4 hover:underline md:mr-6 "
+                >
                   Experiences
                 </a>
               </li>
@@ -52,20 +44,34 @@ export default function Footer() {
           </div>
           <hr className="my-6 border-slate-700 sm:mx-auto lg:my-8" />
           <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Tolga Zorlu™</a>. All Rights Reserved.
-          </span>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                <a href="https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA" class="text-red-500 hover:text-amber-500">
-                    <AiFillYoutube className="w-6 h-6"/>
-                </a>
-                <a href="https://www.linkedin.com/in/tolgazorlu/" class="text-black-500 hover:text-amber-500">
-                  <AiFillGithub className="w-6 h-6"/>
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+              © 2023{" "}
+              <a href="#" class="hover:underline">
+                Tolga Zorlu™
               </a>
-              <a href="https://www.linkedin.com/in/tolgazorlu/" class="text-blue-500 hover:text-amber-500">
-                  <AiFillLinkedin className="w-6 h-6"/>
+              . All Rights Reserved.
+            </span>
+            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+              <a
+                href="https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA"
+                class="text-red-500 hover:text-amber-500"
+              >
+                <AiFillYoutube className="w-6 h-6" />
               </a>
+              <a
+                href="https://www.linkedin.com/in/tolgazorlu/"
+                class="text-black-500 hover:text-amber-500"
+              >
+                <AiFillGithub className="w-6 h-6" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tolgazorlu/"
+                class="text-blue-500 hover:text-amber-500"
+              >
+                <AiFillLinkedin className="w-6 h-6" />
+              </a>
+            </div>
           </div>
-      </div>
         </div>
       </footer>
     </div>
