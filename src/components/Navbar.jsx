@@ -19,18 +19,7 @@ export default function Navbar() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">tolgdev</span>
             <div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#3a81f6"
-              className="w-6 h-6 animate-spin"
-            >
-              <path
-                fillRule="evenodd"
-                d="M4.5 7.5a3 3 0 013-3h9a3 3 0 013 3v9a3 3 0 01-3 3h-9a3 3 0 01-3-3v-9z"
-                clipRule="evenodd"
-              />
-            </svg>
+              <img className="w-6 h-6 rounded-xl" src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj" />
             </div>
           </a>
           <div>
