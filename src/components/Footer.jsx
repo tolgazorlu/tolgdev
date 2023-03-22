@@ -43,30 +43,30 @@ export default function Footer() {
             </ul>
           </div>
           <hr className="my-6 border-slate-700 sm:mx-auto lg:my-8" />
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <div className="sm:flex sm:items-center sm:justify-between">
+            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               © 2023{" "}
-              <a href="#" class="hover:underline">
+              <a href="#" className="hover:underline">
                 Tolga Zorlu™
               </a>
               . All Rights Reserved.
             </span>
-            <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
                 href="https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA"
-                class="text-red-500 hover:text-amber-500"
+                className="text-red-500 hover:text-amber-500"
               >
                 <AiFillYoutube className="w-6 h-6" />
               </a>
               <a
                 href="https://www.linkedin.com/in/tolgazorlu/"
-                class="text-black-500 hover:text-amber-500"
+                className="text-black-500 hover:text-amber-500"
               >
                 <AiFillGithub className="w-6 h-6" />
               </a>
               <a
                 href="https://www.linkedin.com/in/tolgazorlu/"
-                class="text-blue-500 hover:text-amber-500"
+                className="text-blue-500 hover:text-amber-500"
               >
                 <AiFillLinkedin className="w-6 h-6" />
               </a>
