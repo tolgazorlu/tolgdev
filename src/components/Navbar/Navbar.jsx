@@ -126,11 +126,22 @@ export default function Navbar() {
           className="fixed inset-0 z-10 overflow-y-auto bg-light dark:bg-dark px-6 py-6 lg:hidden"
         >
           <div className="flex items-center justify-between">
+          <div className="flex">
+          <a href="#" className="-m-1.5 p-1.5">
             <div>
-              <a className="ml-2 text-md font-semibold leading-6 text-slate-700 dark:text-slate-100">
-                Tolga Zorlu
-              </a>
+              <img
+                className="w-6 h-6 rounded-full ring-4 ring-primary dark:ring-secondary"
+                src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj"
+                alt="Bordered avatar"
+              />
             </div>
+          </a>
+          <div>
+            <a className="ml-2 text-md font-semibold leading-6 text-slate-700 dark:text-slate-100">
+              Tolga Zorlu
+            </a>
+          </div>
+        </div>
             <div>
               <button onClick={changeTheme} className="p-2">
                 <svg
