@@ -17,7 +17,10 @@ export default function HomePage() {
       <Hero />
       <Works />
       <Experiences />
+      <div className="mt-[200px]">
       <Contact />
+      </div>
+      
       <Footer />
     </div>
   );
