@@ -1,27 +1,26 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Portfolio from "./components/Portfolio";
-import Experiences from "./components/Experiences";
-import {motion, useScroll} from 'framer-motion'
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route, Routes,
+  Link
+} from 'react-router-dom';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/HomePage";
+import About from "./pages/AboutPage";
+import Contact from "./pages/ContactPage";
+import Blog from './pages/BlogPage'
 
-function App() {
-  const { scrollYProgress } = useScroll();
-  return (
-    <div className="bg-slate-200 snap-y snap-mandatory h-screen">
-      <motion.div
-        className="fixed top-0 left-0 right-0 h-3 bg-blue-500 z-20"
-        style={{ scaleX: scrollYProgress }}
-      />
-      <Navbar />
-      <Hero />
-      <Portfolio />
-      <Experiences />
-      <Contact />
-      <Footer />
-    </div>
-  );
+export default function App() {
+
+  return <div className="bg-light dark:bg-dark">
+  <Navbar />
+  <Router>
+    <Routes>
+    <Route path="/" Component={Home}/>
+    <Route path="/about" Component={About}/>
+    <Route path="/contact" Component={Contact}/>
+    <Route path="/blog" Component={Blog}/>
+    </Routes>
+  </Router>
+  </div>;
 }
-
-export default App;

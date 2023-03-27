@@ -25,10 +25,15 @@ const works = [
   },
 ];
 
-export default function Portfolio() {
+export default function Works() {
   return (
-    <div id="works" className="bg-slate-200 lg:h-screen w-full flex flex-col justify-center items-center snap-center gap-10">
-      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700">My Works</h2>
+    <div
+      id="works"
+      className="lg:h-screen w-full flex flex-col justify-center items-center snap-center gap-10"
+    >
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700 dark:text-slate-100">
+        My Works
+      </h2>
 
       <div className="flex flex-col lg:flex-row gap-5">
         {works.map((item, index) => {
