@@ -1,6 +1,7 @@
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
+import Profile from '../../assets/tolgazorlu.jpg'
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -11,6 +12,8 @@ const navigation = [
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
+
+
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -52,7 +55,7 @@ export default function Navbar() {
             <div>
               <img
                 className="w-6 h-6 rounded-full ring-4 ring-primary dark:ring-secondary"
-                src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj"
+                src={Profile}
                 alt="Bordered avatar"
               />
             </div>
@@ -131,7 +134,7 @@ export default function Navbar() {
             <div>
               <img
                 className="w-6 h-6 rounded-full ring-4 ring-primary dark:ring-secondary"
-                src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj"
+                src={Profile}
                 alt="Bordered avatar"
               />
             </div>
