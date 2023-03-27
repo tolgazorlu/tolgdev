@@ -13,7 +13,7 @@ module.exports = {
         light: "#cbd9e5",
         dark: "#2A363B",
         bgCard: "#ffffff",
-        bgDarkCard: "#3b4452"
+        bgDarkCard: "#152226"
       },
       fontFamily: {
         'inter': ["'Inter'", 'sans-serif'],
