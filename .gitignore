@@ -3,3 +3,6 @@ vercel.json
 node_modules/
 yarn.lock
 Contact.jsx
+.DS_Store
+profile.jpg
+tolgazorlu.jpg
