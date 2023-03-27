@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
+import Profile from '../../assets/tolgazorlu.jpg'
 
 const footerLinks = [
   {title: "Home", href: "/"},
@@ -7,6 +8,7 @@ const footerLinks = [
   {title: "About", href: "/about"},
   {title: "Contact", href: "/contact"},
 ]
+
 
 export default function Footer() {
   return (
@@ -16,7 +18,7 @@ export default function Footer() {
           <a href="#" className="flex items-center mb-4 sm:mb-0">
             <img
               className="w-6 h-6 rounded-full ring-4 ring-primary dark:ring-secondary mr-2"
-              src="https://yt3.ggpht.com/iURlWMrJWQd_biexnGGbXx26yvsDa_y4ZJqsveH3ugoSwIbEaSUq4Hrmg9VxTx9yxEqGOHUq=s108-c-k-c0x00ffffff-no-rj"
+              src={Profile}
               alt="Bordered avatar"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-700 dark:text-slate-100">
