@@ -48,7 +48,7 @@ export default function Contact() {
             <input
               type="text"
               name="user_name"
-              className="block p-3 w-full text-sm text-gray-900 bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
+              className="block p-3 w-full text-sm text-gray-900 dark:text-light bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
               placeholder="What is your name?"
               required
             />
@@ -61,21 +61,21 @@ export default function Contact() {
               type="email"
               name="user_email"
               id="user_email"
-              className="block p-3 w-full text-sm text-gray-900 bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
+              className="block p-3 w-full text-sm text-gray-900 dark:text-light bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
               placeholder="name@mail.com"
               required
             />
           </div>
 
           <div className="sm:col-span-2">
-            <label className="block mb-2 text-sm font-medium text-slate-700 dark:text-slate-100 ">
+            <label className="block mb-2 text-sm font-medium text-slate-700  dark:text-slate-100 ">
               Your message
             </label>
             <textarea
               name="message"
               id="message"
               rows="6"
-              className="block p-2.5 w-full text-sm text-gray-900 bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
+              className="block p-2.5 w-full text-sm text-gray-900 dark:text-light bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
@@ -88,7 +88,7 @@ export default function Contact() {
             </button>
           {isSended ? (
             <div
-              className="flex p-4 mb-4 text-sm text-green-800 border border-primary rounded-lg bg-bgCard"
+              className="flex p-4 mb-4 text-sm text-green-800 dark:text-green-600 border border-primary dark:border-secondary rounded-lg bg-bgCard dark:bg-bgDarkCard"
               role="alert"
             >
               <svg
