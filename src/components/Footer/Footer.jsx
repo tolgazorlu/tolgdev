@@ -4,7 +4,7 @@ import Profile from '../../assets/tolgazorlu.jpg'
 
 const footerLinks = [
   {title: "Home", href: "/"},
-  {title: "Blog", href: "/blog"},
+  {title: "Youtube", href: "https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA"},
   {title: "About", href: "/about"},
   {title: "Contact", href: "/contact"},
 ]

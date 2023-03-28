@@ -43,10 +43,10 @@ export default function Example() {
           >
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://drive.google.com/file/d/1anNRGXRCtoeil0CPl3_4RaSNNvUd-IUn/view?usp=sharing"
+                href="#contact"
                 className="rounded-md bg-primary dark:bg-secondary px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-100 dark:text-slate-700 hover:bg-secondary hover:text-slate-700 dark:hover:bg-primary dark:hover:text-slate-100"
               >
-                Download CV
+                Let's contact!
               </a>
             </div>
           </motion.div>
