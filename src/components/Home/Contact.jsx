@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { motion } from "framer-motion";
 
 export default function Contact() {
   const form = useRef();
@@ -111,7 +110,8 @@ export default function Contact() {
               </div>
             </div>
           ) : (
-            <div></div>
+            <div>
+            </div>
           )}
         </form>
       </div>

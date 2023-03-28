@@ -115,12 +115,12 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <button
-            type="button"
+          <a
+          href="https://drive.google.com/file/d/1anNRGXRCtoeil0CPl3_4RaSNNvUd-IUn/view?usp=sharing"
             className="text-white dark:text-slate-700 bg-primary dark:bg-secondary hover:bg-secondary hover:text-slate-700 dark:hover:bg-primary dark:hover:text-slate-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 "
           >
-            Login
-          </button>
+            Download CV
+          </a>
         </div>
       </nav>
       <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
