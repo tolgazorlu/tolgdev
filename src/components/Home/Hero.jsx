@@ -9,9 +9,9 @@ export default function Example() {
       <div className="mx-auto max-w-2xl">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-slate-600 dark:text-slate-400 ring-1 ring-gray-900/10 dark:ring-gray-600 dark:hover:ring-gray-500 hover:ring-gray-900/20">
-            React Three Fiber'da GLTF modeli kullanmak.{" "}
+            NextJS ve TailwindCSS kurulum.{" "}
             <a
-              href="https://www.youtube.com/watch?v=3iPZCljw2l8"
+              href="https://www.youtube.com/watch?v=MUCRr26kDYM"
               className="font-semibold text-primary dark:text-secondary"
             >
               <span className="absolute inset-0" aria-hidden="true" />
