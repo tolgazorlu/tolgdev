@@ -47,7 +47,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="w-full p-6 lg:px-48 flex items-center justify-between z-10 bg-light dark:bg-dark fixed"
+        className="w-full p-6 md:px-32 xl:px-48 flex items-center justify-between z-10 bg-light dark:bg-dark fixed"
         aria-label="Global"
       >
         <div className="flex">
