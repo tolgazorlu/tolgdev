@@ -11,10 +11,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_iry8ehi",
-        "template_bvnal8d",
+        // "service_asdasd", 
+        //"template_asdasd",
         form.current,
-        "H_UkTD1Hja8fE4XQx"
+        //"asdasd"
       )
       .then(
         (result) => {
@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="h-screen mt-[150px] md:mt-20 lg:mt-0"
+      className="h-screen mt-[300px] sm:mt-[100px] md:mt-20 lg:mt-0"
     >
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700 dark:text-slate-100">
