@@ -8,7 +8,7 @@ export default function Example() {
     >
       <div className="mx-auto max-w-2xl">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-slate-600 dark:text-slate-400 ring-1 ring-gray-900/10 dark:ring-gray-600 dark:hover:ring-gray-500 hover:ring-gray-900/20">
+          <div className="relative rounded-full py-1 px-3 text-sm leading-6 ring ring-primary">
             NextJS ve TailwindCSS kurulum.{" "}
             <a
               href="https://www.youtube.com/watch?v=MUCRr26kDYM"
@@ -20,10 +20,10 @@ export default function Example() {
           </div>
         </div>
         <div className="text-center">
-          <h1 className="font-inter mt-6 text-4xl font-bold bg-primary dark:bg-secondary text-light dark:text-dark rounded-xl p-2 sm:text-6xl">
-            Tolga Zorlu
+          <h1 className="font-aubette mt-6 text-4xl font-bold bg-primary text-primary-content rounded-xl p-2 sm:text-6xl">
+            TOLGA ZORLU
           </h1>
-          <p className="mt-6 text-lg leading-8 text-slate-700 dark:text-slate-300">
+          <p className="mt-6 text-lg leading-8">
             I am interested about web and mobile technologies. I currently
             developing small projects with <span className="">Nodejs</span>,{" "}
             <span className="">Express</span>, <span className="">MongoDB</span>{" "}
@@ -44,14 +44,14 @@ export default function Example() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#contact"
-                className="rounded-md bg-primary dark:bg-secondary px-3.5 py-1.5 text-base font-semibold leading-7 text-slate-100 dark:text-slate-700 hover:bg-secondary hover:text-slate-700 dark:hover:bg-primary dark:hover:text-slate-100"
+                className="btn bg-primary-content border-primary-content text-primary hover:bg-primary-content/50"
               >
                 Let's contact!
               </a>
             </div>
           </motion.div>
           <div className="flex justify-center items-center h-48">
-            <div className="animate-bounce text-slate-700 dark:text-slate-100">
+            <div className="animate-bounce">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

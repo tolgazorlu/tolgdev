@@ -3,18 +3,18 @@ import { motion } from "framer-motion";
 
 export default function Card({ title, desc, href, url }) {
   return (
-    <div className="max-w-xs bg-bgCard dark:bg-bgDarkCard border border-gray-200 dark:border-slate-500 rounded-lg shadow">
+    <div className="max-w-xs border rounded-lg bg-primary text-primary-content shadow-xl">
       <a href="#">
         <img className="rounded-t-lg w-full h-52" src={url} alt="" />
       </a>
       <div className="p-5 flex flex-col justify-around items-start">
         <div>
           <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-slate-700 dark:text-slate-200">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight font-aubette">
               {title}
             </h5>
           </a>
-          <p className="mb-3 font-normal text-slate-400 dark:text-slate-300">{desc}</p>
+          <p className="mb-3 font-normal">{desc}</p>
           <br></br>
         </div>
         <motion.div
@@ -23,7 +23,7 @@ export default function Card({ title, desc, href, url }) {
         >
           <a
             href={href}
-            className="inline-flex items-center justify-center px-3 py-2 text-sm font-medium text-center text-slate-100 bg-primary dark:bg-secondary dark:text-slate-700 hover:bg-secondary hover:text-slate-700  dark:hover:bg-primary dark:hover:text-slate-100 rounded-lg"
+            className="btn bg-secondary-content border-secondary-content text-secondary hover:bg-secondary-content/50"
           >
             Click more
             <svg

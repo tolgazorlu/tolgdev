@@ -17,7 +17,7 @@ main,
 }
 
 body {
-  font-family: inter;
+  font-family: poppins;
 }
 
 /* CUSTOM  SCROLL BAR  */
@@ -25,4 +25,14 @@ body {
 /* width */
 ::-webkit-scrollbar {
   width: 0;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('assets/poppins-regular.ttf') format("opentype");
+}
+
+@font-face {
+  font-family: Aubette;
+  src: url('assets/aubette.ttf') format("opentype");
 }

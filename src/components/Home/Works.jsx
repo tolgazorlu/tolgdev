@@ -3,21 +3,21 @@ import Card from "./Card";
 
 const works = [
   {
-    title: "Deprem Dayanisma",
-    desc: " Due to the 7.7 and 7.6 magnitude earthquakes ...",
-    href: "https://depremdayanisma.vercel.app/",
+    title: "DACO",
+    desc: "DACO - Where Challenges Ignite Brilliance! ...",
+    href: "https://github.com/tolgazorlu/daco",
     imgUrl:
-      "https://raw.githubusercontent.com/tolgazorlu/depremdayanisma/main/Screenshot%202023-03-18%20at%2015.46.12.png",
+      "https://github.com/tolgazorlu/daco/blob/main/daco-banner.png?raw=true",
   },
   {
-    title: "Parallax Portfolio",
-    desc: " Building Parallax Portfolio using React and Tailwind.",
+    title: "BIGBANG SPACE C.",
+    desc: "Building Space Commerce using Mern and Typescript.",
     href: "https://github.com/tolgazorlu/tolgazorlu-portfolio",
     imgUrl:
-      "https://github.com/tolgazorlu/tolgazorlu-portfolio/raw/main/portfolio.gif",
+      "https://github.com/tolgazorlu/bigbang/blob/main/space%20commerce.png?raw=true",
   },
   {
-    title: "Web3 Todo",
+    title: "WEB3 TODO",
     desc: "Building Web3 Todo using React, Tailwind, Solidity.",
     href: "https://github.com/tolgazorlu/react-solidity-todo",
     imgUrl:
@@ -31,7 +31,7 @@ export default function Works() {
       id="works"
       className="lg:h-screen w-full flex flex-col justify-center items-center snap-center gap-10"
     >
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-slate-700 dark:text-slate-100">
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center">
         My Works
       </h2>
 

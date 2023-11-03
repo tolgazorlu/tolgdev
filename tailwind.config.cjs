@@ -1,24 +1,48 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: {
-        primary: "#00ADB5",
-        secondary: "#fbd36d",
-        light: "#EEEEEE",
-        dark: "#29363a",
-        bgCard: "#ffffff",
-        bgDarkCard: "#152226"
-      },
       fontFamily: {
-        'inter': ["'Inter'", 'sans-serif'],
-      }
+        inter: ["'Inter'", "sans-serif"],
+        poppins: "Poppins",
+        aubette: "Aubette"
+      },
     },
   },
-  plugins: [],
-}
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+    ],
+  },
+  plugins: [require("daisyui")],
+};
