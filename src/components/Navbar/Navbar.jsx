@@ -95,7 +95,7 @@ export default function Navbar() {
         </div>
         <div className="flex gap-2 items-center">
           <img className="w-7 rounded-full ring ring-accent" src={Profile} />
-          <a className="text-xl font-bold font-aubette">TOLGA ZORLU</a>
+          <a className="text-xl font-bold font-aubette tracking-wider">TOLGA ZORLU</a>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

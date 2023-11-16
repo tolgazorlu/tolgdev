@@ -23,7 +23,7 @@ export default function Footer() {
               src={Profile}
               alt="Bordered avatar"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap font-aubette">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap font-aubette tracking-wider">
               TOLGA ZORLU
             </span>
           </a>
@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm sm:text-center">
             © 2023{" "}
-            <a className="hover:underline font-aubette">
+            <a className="hover:underline font-aubette tracking-wider">
               TOLGA ZORLU™
             </a>
             . All Rights Reserved.

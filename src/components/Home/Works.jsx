@@ -1,27 +1,27 @@
 import React from "react";
 import Card from "./Card";
+import Daco from '../../assets/daco.png';
+import Bigbang from '../../assets/space-commerce.png';
+import RST from '../../assets/rst.gif'
 
 const works = [
   {
     title: "DACO",
     desc: "DACO - Where Challenges Ignite Brilliance! ...",
-    href: "https://github.com/tolgazorlu/daco",
-    imgUrl:
-      "https://github.com/tolgazorlu/daco/blob/main/daco-banner.png?raw=true",
+    href: "https://daco.space",
+    imgUrl: Daco
   },
   {
     title: "BIGBANG SPACE C.",
     desc: "Building Space Commerce using Mern and Typescript.",
     href: "https://github.com/tolgazorlu/bigbang",
-    imgUrl:
-      "https://github.com/tolgazorlu/bigbang/blob/main/space%20commerce.png?raw=true",
+    imgUrl: Bigbang
   },
   {
     title: "WEB3 TODO",
     desc: "Building Web3 Todo using React, Tailwind, Solidity.",
     href: "https://github.com/tolgazorlu/react-solidity-todo",
-    imgUrl:
-      "https://github.com/tolgazorlu/react-solidity-todo/blob/update/todo.gif?raw=true",
+    imgUrl: RST
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Works() {
       id="works"
       className="w-full flex flex-col justify-center items-center snap-center gap-10 py-20"
     >
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center">
+      <h2 className="mb-4 text-4xl tracking-wider font-extrabold text-center">
         My Works
       </h2>
 

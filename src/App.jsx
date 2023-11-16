@@ -8,7 +8,7 @@ import Blog from "./pages/BlogPage";
 
 export default function App() {
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
       <Router>
         <Routes>
