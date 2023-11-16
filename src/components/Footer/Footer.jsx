@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="#" className="flex items-center mb-4 sm:mb-0">
             <img
-              className="w-6 h-6 rounded-full ring-4 ring-primary dark:ring-secondary mr-2"
+              className="w-6 h-6 rounded-full ring-4 ring-accent dark:ring-secondary mr-2"
               src={Profile}
               alt="Bordered avatar"
             />
@@ -51,19 +51,19 @@ export default function Footer() {
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA"
-              className="hover:text-primary "
+              className="hover:text-accent "
             >
               <AiFillYoutube className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/tolgazorlu/"
-              className="hover:text-primary "
+              className="hover:text-accent "
             >
               <AiFillGithub className="w-6 h-6" />
             </a>
             <a
               href="https://www.linkedin.com/in/tolgazorlu/"
-              className="hover:text-primary "
+              className="hover:text-accent "
             >
               <AiFillLinkedin className="w-6 h-6" />
             </a>

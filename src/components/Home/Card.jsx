@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Card({ title, desc, href, url }) {
   return (
-    <div className="max-w-xs border rounded-lg bg-primary text-primary-content shadow-xl">
+    <div className="max-w-xs border rounded-lg bg-accent text-accent-content shadow-xl">
       <a href="#">
         <img className="rounded-t-lg w-full h-52" src={url} alt="" />
       </a>
@@ -23,7 +23,7 @@ export default function Card({ title, desc, href, url }) {
         >
           <a
             href={href}
-            className="btn bg-secondary-content border-secondary-content text-secondary hover:bg-secondary-content/50"
+            className="btn bg-accent-content border-accent-content text-accent hover:bg-accent-content/50"
           >
             Click more
             <svg

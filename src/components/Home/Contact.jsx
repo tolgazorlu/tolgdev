@@ -47,7 +47,7 @@ export default function Contact() {
             <input
               type="text"
               name="user_name"
-              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
+              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-accent dark:border-secondary shadow-sm focus:ring-accent dark:focus:ring-secondary focus:border-accent dark:focus:border-secondary"
               placeholder="What is your name?"
               required
             />
@@ -60,7 +60,7 @@ export default function Contact() {
               type="email"
               name="user_email"
               id="user_email"
-              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-primary dark:border-secondary shadow-sm focus:ring-primary dark:focus:ring-secondary focus:border-primary dark:focus:border-secondary"
+              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-accent dark:border-secondary shadow-sm focus:ring-accent dark:focus:ring-secondary focus:border-accent dark:focus:border-secondary"
               placeholder="name@mail.com"
               required
             />
@@ -74,20 +74,20 @@ export default function Contact() {
               name="message"
               id="message"
               rows="6"
-              className="block p-2.5 w-full text-sm rounded-lg border border-primary"
+              className="block p-2.5 w-full text-sm rounded-lg border border-accent"
               placeholder="Leave a comment..."
             ></textarea>
           </div>
             <button
               type="submit"
               value="Send"
-              className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-primary text-primary-content"
+              className="py-3 px-5 text-sm font-medium text-center rounded-lg bg-accent text-accent-content"
             >
               Send message
             </button>
           {isSended ? (
             <div
-              className="flex p-4 mb-4 text-sm border border-primary dark:border-secondary rounded-lg "
+              className="flex p-4 mb-4 text-sm border border-accent dark:border-secondary rounded-lg "
               role="alert"
             >
               <svg
