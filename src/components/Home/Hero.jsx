@@ -20,7 +20,7 @@ export default function Example() {
           </div>
         </div>
         <div className="text-center">
-          <h1 className="font-aubette mt-6 text-4xl font-bold bg-accent text-accent-content rounded-xl p-2 sm:text-6xl">
+          <h1 className="font-aubette tracking-wider mt-6 text-4xl font-bold bg-accent text-accent-content rounded-xl p-2 sm:text-6xl">
             TOLGA ZORLU
           </h1>
           <p className="mt-6 text-lg leading-8">

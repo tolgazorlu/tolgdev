@@ -5,7 +5,7 @@ export default function Card({ title, desc, href, url }) {
   return (
     <div className="max-w-xs border rounded-lg bg-accent text-accent-content shadow-xl">
       <a href="#">
-        <img className="rounded-t-lg w-full h-52" src={url} alt="" />
+        <img className="rounded-t-lg w-full h-44" src={url} alt="" />
       </a>
       <div className="p-5 flex flex-col justify-around items-start">
         <div>
@@ -23,6 +23,7 @@ export default function Card({ title, desc, href, url }) {
         >
           <a
             href={href}
+            target="_blank"
             className="btn bg-accent-content border-accent-content text-accent hover:bg-accent-content/50"
           >
             Click more
