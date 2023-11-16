@@ -8,11 +8,11 @@ export default function Example() {
     >
       <div className="mx-auto max-w-2xl">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full py-1 px-3 text-sm leading-6 ring ring-primary">
+          <div className="relative rounded-full py-1 px-3 text-sm leading-6 ring ring-accent">
             NextJS ve TailwindCSS kurulum.{" "}
             <a
               href="https://www.youtube.com/watch?v=MUCRr26kDYM"
-              className="font-semibold text-primary dark:text-secondary"
+              className="font-semibold text-accent dark:text-secondary"
             >
               <span className="absolute inset-0" aria-hidden="true" />
               Watch video <span aria-hidden="true">&rarr;</span>
@@ -20,7 +20,7 @@ export default function Example() {
           </div>
         </div>
         <div className="text-center">
-          <h1 className="font-aubette mt-6 text-4xl font-bold bg-primary text-primary-content rounded-xl p-2 sm:text-6xl">
+          <h1 className="font-aubette mt-6 text-4xl font-bold bg-accent text-accent-content rounded-xl p-2 sm:text-6xl">
             TOLGA ZORLU
           </h1>
           <p className="mt-6 text-lg leading-8">
@@ -44,7 +44,7 @@ export default function Example() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#contact"
-                className="btn bg-primary-content border-primary-content text-primary hover:bg-primary-content/50"
+                className="btn bg-accent-content border-accent-content text-accent hover:bg-accent-content/50"
               >
                 Let's contact!
               </a>

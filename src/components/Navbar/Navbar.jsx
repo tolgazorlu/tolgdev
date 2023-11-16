@@ -94,7 +94,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex gap-2 items-center">
-          <img className="w-7 rounded-full ring ring-primary" src={Profile} />
+          <img className="w-7 rounded-full ring ring-accent" src={Profile} />
           <a className="text-xl font-bold font-aubette">TOLGA ZORLU</a>
         </div>
       </div>
@@ -117,7 +117,7 @@ export default function Navbar() {
           download="TolgaZorluCV"
           target="_blank"
           rel="noreferrer"
-          className="btn btn-sm btn-primary"
+          className="btn btn-sm btn-accent"
         >
           Download CV
         </a>
@@ -164,7 +164,7 @@ export default function Navbar() {
                   <li key={item}>
                     <button
                       className={
-                        theme === item ? "btn btn-sm btn-primary" : "btn btn-sm"
+                        theme === item ? "btn btn-sm btn-accent" : "btn btn-sm"
                       }
                       value={item}
                       onClick={(e) => clickThemeHandler(e)}

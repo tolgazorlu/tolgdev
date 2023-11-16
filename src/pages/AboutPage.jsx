@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div className="h-[80vh] px-4 w-full flex flex-col lg:flex-row justify-center items-center gap-10">
       <div className="lg:w-1/4">
         <img
-          className="w-full h-full rounded-full ring-4 ring-primary"
+          className="w-full h-full rounded-full ring-4 ring-accent"
           src={Profile}
           alt="Bordered avatar"
         />

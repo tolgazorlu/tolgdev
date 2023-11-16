@@ -12,8 +12,8 @@ export default function Experiences() {
 
       <ol className="relative border-l">
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 bg-primary dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-primary dark:border-secondary"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-primary">
+          <div className="absolute w-3 h-3 bg-accent dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-accent dark:border-secondary"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-accent">
             October 2021 - February 2022 | INTERN
           </time>
           <h3 className="text-lg font-semibold">
@@ -28,8 +28,8 @@ export default function Experiences() {
         </li>
 
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 bg-primary dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-primary dark:border-secondary"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-primary">
+          <div className="absolute w-3 h-3 bg-accent dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-accent dark:border-secondary"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-accent">
             June 2021 - July 2021 | INTERN
           </time>
           <h3 className="text-lg font-semibold">SNI</h3>
@@ -41,8 +41,8 @@ export default function Experiences() {
         </li>
 
         <li className="mb-10 ml-4">
-          <div className="absolute w-3 h-3 bg-primary dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-primary dark:border-secondary"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-primary">
+          <div className="absolute w-3 h-3 bg-accent dark:bg-secondary rounded-full mt-1.5 -left-1.5 border border-accent dark:border-secondary"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-accent">
             August 2021 - August 2021 | Junior Software Engineer
           </time>
           <h3 className="text-lg font-semibold">
