@@ -9,9 +9,9 @@ export default function Example() {
       <div className="mx-auto max-w-2xl">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full py-1 px-3 text-sm leading-6 ring ring-accent">
-            NextJS ve TailwindCSS kurulum.{" "}
+            Manastir Turkusu Orchestral{" "}
             <a
-              href="https://www.youtube.com/watch?v=MUCRr26kDYM"
+              href="https://www.youtube.com/watch?v=o2mwAv3sjTI"
               className="font-semibold text-accent dark:text-secondary"
             >
               <span className="absolute inset-0" aria-hidden="true" />

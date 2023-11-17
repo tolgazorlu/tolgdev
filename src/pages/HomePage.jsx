@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <div>
       <motion.div
-        className="fixed top-0 left-0 right-0 h-3 bg-accent dark:bg-secondary z-20"
+        className="fixed top-0 left-0 right-0 h-3 bg-accent z-20"
         style={{ scaleX: scrollYProgress }}
       />
       <Hero />

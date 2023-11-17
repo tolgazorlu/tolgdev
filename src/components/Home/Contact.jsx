@@ -47,7 +47,7 @@ export default function Contact() {
             <input
               type="text"
               name="user_name"
-              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-accent dark:border-secondary shadow-sm focus:ring-accent dark:focus:ring-secondary focus:border-accent dark:focus:border-secondary"
+              className="block p-3 w-full text-sm rounded-lg border border-accent shadow-sm focus:ring-accent focus:border-accent"
               placeholder="What is your name?"
               required
             />
@@ -60,7 +60,7 @@ export default function Contact() {
               type="email"
               name="user_email"
               id="user_email"
-              className="block p-3 w-full text-sm bg-bgCard dark:bg-bgDarkCard rounded-lg border border-accent dark:border-secondary shadow-sm focus:ring-accent dark:focus:ring-secondary focus:border-accent dark:focus:border-secondary"
+              className="block p-3 w-full text-sm rounded-lg border border-accent shadow-sm focus:ring-accent focus:border-accent"
               placeholder="name@mail.com"
               required
             />
@@ -87,7 +87,7 @@ export default function Contact() {
             </button>
           {isSended ? (
             <div
-              className="flex p-4 mb-4 text-sm border border-accent dark:border-secondary rounded-lg "
+              className="flex p-4 mb-4 text-sm border border-accent rounded-lg "
               role="alert"
             >
               <svg
