@@ -9,7 +9,7 @@ const footerLinks = [
     href: "https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA",
   },
   { title: "About", href: "/about" },
-  { title: "Contact", href: "/contact" },
+  { title: "Stopwatch", href: "https://stopwatch-tz.vercel.app/" },
 ];
 
 export default function Footer() {

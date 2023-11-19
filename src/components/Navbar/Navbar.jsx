@@ -9,7 +9,7 @@ const navigation = [
     href: "https://www.youtube.com/channel/UCbQ2CNMwWjNeRDaXoKi9eAA",
   },
   { name: "About", href: "/about" },
-  { name: "Contact", href: "/contact" },
+  { name: "Stopwatch", href: "https://stopwatch-tz.vercel.app/" },
 ];
 
 const themes = [
