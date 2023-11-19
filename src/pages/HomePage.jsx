@@ -17,7 +17,6 @@ export default function HomePage() {
       <Hero />
       <Works />
       <Experiences />
-      <Contact />
       <Footer />
     </div>
   );
